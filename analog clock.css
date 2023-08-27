@@ -1,0 +1,93 @@
+body{
+    background: rgb(243, 238, 238);
+}
+.outer{
+    width: 350px;
+    height: 350px;
+    background: rgb(243, 238, 238);
+    box-shadow: 7px 7px 9px grey,-7px -7px 9px white;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 35%;
+    border-radius: 50%;
+}
+.inner{
+    width: 280px;
+    height: 280px;
+    background: url("back_img.jpg");
+    /*box-shadow: 6px 6px 8px grey,-6px -6px 8px white;*/
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 50%;
+    background-size: cover;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top:46%;
+    left:46%;
+    background:black;
+    z-index: 4;
+}
+#hour{
+    width:10px;
+    height: 75px;
+    background: rgb(11, 98, 133);
+    position: absolute;
+    top:24%;
+    left:48%;
+    transform-origin: bottom;
+    border-radius: 50% 50% 0px 0px;
+    z-index: 2;
+}
+#min{
+    width:8px;
+    height: 110px;
+    background: rgb(196, 209, 11);
+    position: absolute;
+    top:11%;
+    left:48%;
+    transform-origin: bottom;
+    border-radius: 50% 50% 0px 0px;
+    z-index: 1;
+}
+#sec{
+    width:5px;
+    height: 120px;
+    background: rgb(207, 16, 16);
+    position: absolute;
+    top:8%;
+    left:48%;
+    border-radius: 50% 50% 0px 0px;
+    transform-origin: bottom;
+    z-index: 3;
+}
+.time p{
+    font-size: 27px;
+    font-weight: bold;
+    font-family: Arial;
+    text-shadow: 1px 1px 2px ;
+}
+.time p:nth-child(1){
+    position: absolute;
+    left: 44%;
+    top:-6%;
+}
+.time p:nth-child(2){
+    position: absolute;
+    left: 3%;
+    top:37%;
+}
+.time p:nth-child(3){
+    position: absolute;
+    left: 49%;
+    top:84%;
+}
+.time p:nth-child(4){
+    position: absolute;
+    left: 92%;
+    top:36%;
+}
